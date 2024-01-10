@@ -37,6 +37,7 @@ subq, addq, andq, salq, incq...The result of this is recorded in these four flag
 cmpq b, a computes a - b
 
 |setl | (SF^OF)| Less(Signed)|
+|----| ---- | ----|
 
 `long less (long x, long y){`
     `return x < y;`
